@@ -24,6 +24,6 @@ end
 week = 0
 puts "#{team_name} Histogram"
 ranks.each do |rank|
-  puts "Week #{week}:" + "*"*rank + "(#{rank})"
+  puts "Week %2d:" % week + "*"*rank + "(#{rank})"
   week += 1
 end
