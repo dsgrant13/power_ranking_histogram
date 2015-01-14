@@ -4,8 +4,6 @@
 
 require 'nokogiri'
 require 'open-uri'
-require 'chartkick'
-
 
 week = 0
 ranks = []
